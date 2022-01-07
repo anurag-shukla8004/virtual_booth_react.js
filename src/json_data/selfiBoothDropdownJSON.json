@@ -1,0 +1,7 @@
+{
+  "title": "SELFIE BOOTH",
+  "options": [
+    { "label": "All", "value": "all" },
+    { "label": "Create", "value": "create" }
+  ]
+}

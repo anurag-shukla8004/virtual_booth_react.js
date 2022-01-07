@@ -1,0 +1,8 @@
+{
+  "title": "Admin",
+  "options": [
+    { "label": "Option-1", "value": "/" },
+    { "label": "Option-2", "value": "/" },
+    { "label": "Option-3", "value": "/" }
+  ]
+}
