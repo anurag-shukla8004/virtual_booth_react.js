@@ -4,12 +4,13 @@ body {
 .header-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .profile-logout {
   display: flex;
   align-items: center;
+  margin-right: 50px;
 }
 .profile {
   display: flex;
@@ -21,7 +22,10 @@ body {
   color: #555;
 }
 .logo-img img {
-  width: 170px;
+  width: 110px;
+}
+.logo-img {
+  margin-left: 50px;
 }
 .divide-line {
   width: 2px;
@@ -104,7 +108,7 @@ select:hover {
 }
 
 .searchBar-container {
-  box-shadow: -6px -7px 5px rgb(224, 224, 224);
+  box-shadow: -8px -7px 48px rgb(224 224 224);
   margin-top: 40px;
   height: 300px;
 }
@@ -143,6 +147,8 @@ select:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 82px;
+  margin-top: 40px;
 }
 .stepper-wrapper {
   margin: 50px auto;
@@ -322,6 +328,17 @@ select:hover {
   .stepper-wrapper {
     width: 240px;
   }
+  .createFomeBox-container {
+    display: flex;
+    background: #f1f0f0;
+    border: 15px #333;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 670px) {
@@ -363,6 +380,9 @@ select:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+
+    height: 155px;
+    margin-top: 0px;
   }
 }
 
@@ -373,6 +393,9 @@ select:hover {
 
   .logo-img img {
     width: 100px;
+  }
+  .logo-img {
+    margin-left: 0px;
   }
   select,
   .sidebar-btn {
@@ -406,6 +429,9 @@ select:hover {
   }
   .searchBar-container input {
     width: 150px;
+  }
+  .profile-logout {
+    margin-right: 0px;
   }
 }
 
