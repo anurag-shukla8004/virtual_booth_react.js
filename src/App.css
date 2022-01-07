@@ -121,7 +121,7 @@ select:hover {
 .details-box {
   background: #56b2f3;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   color: #fff;
   margin: 12px;
